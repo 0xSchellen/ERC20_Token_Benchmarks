@@ -1,0 +1,685 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "sources": "src",
+    "tests": "test",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "C:\\solidity\\ERC20_Token_Benchmarks\\lib\\forge-std\\lib\\ds-test\\src/test.sol": {
+      "lastModificationDate": 1653596247097,
+      "contentHash": "a85cb92e605e48103a5375f81c8233f2",
+      "sourceName": "lib\\forge-std\\lib\\ds-test\\src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "DSTest": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "test.sol\\DSTest.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\lib\\forge-std\\src/Test.sol": {
+      "lastModificationDate": 1653596244213,
+      "contentHash": "4c7d859eb2d661ec7dcb3017875664b2",
+      "sourceName": "lib\\forge-std\\src/Test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\forge-std\\lib\\ds-test\\src/test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src\\console.sol",
+        "lib\\forge-std\\src/console2.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "Test": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "Test.sol\\Test.json"
+        },
+        "stdError": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "Test.sol\\stdError.json"
+        },
+        "stdMath": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "Test.sol\\stdMath.json"
+        },
+        "stdStorage": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "Test.sol\\stdStorage.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\lib\\forge-std\\src/Vm.sol": {
+      "lastModificationDate": 1653596244213,
+      "contentHash": "da372a004f695445b09c69c351174f3b",
+      "sourceName": "lib\\forge-std\\src/Vm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.0",
+      "artifacts": {
+        "Vm": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "Vm.sol\\Vm.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\lib\\forge-std\\src\\console.sol": {
+      "lastModificationDate": 1653596244213,
+      "contentHash": "c8cf989d04bc2e3069e3d91facf3b69c",
+      "sourceName": "lib\\forge-std\\src\\console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "console.sol\\console.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\lib\\forge-std\\src/console2.sol": {
+      "lastModificationDate": 1653596244213,
+      "contentHash": "84e14285f3171a14073d0f81363094ac",
+      "sourceName": "lib\\forge-std\\src/console2.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console2": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "console2.sol\\console2.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\ConduitEnums.sol": {
+      "lastModificationDate": 1653587086000,
+      "contentHash": "f678ba24f03c3a74b987094546cc0f68",
+      "sourceName": "src\\ConduitEnums.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.7",
+      "artifacts": {}
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\ConduitStructs.sol": {
+      "lastModificationDate": 1653587026000,
+      "contentHash": "72d3219e5f8aa5ceb6ab8b72d1df6a41",
+      "sourceName": "src\\ConduitStructs.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "src\\ConduitEnums.sol"
+      ],
+      "versionRequirement": ">=0.8.7",
+      "artifacts": {}
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\Context.sol": {
+      "lastModificationDate": 1653573393000,
+      "contentHash": "9a901e5caa38a825006f221ec3b1bb4f",
+      "sourceName": "src\\Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.14",
+      "artifacts": {
+        "Context": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "Context.sol\\Context.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\Contract.sol": {
+      "lastModificationDate": 1653596241753,
+      "contentHash": "0a4db02f64172ef6ba21d89f49444a92",
+      "sourceName": "src\\Contract.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Contract": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "Contract.sol\\Contract.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\DEX.sol": {
+      "lastModificationDate": 1653589238000,
+      "contentHash": "e5bdc4c87ad83c198e68956fa08ffb50",
+      "sourceName": "src\\DEX.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "src\\ConduitEnums.sol",
+        "src\\ConduitStructs.sol",
+        "src\\Context.sol",
+        "src\\IERC20.sol",
+        "src\\IERC20Metadata.sol",
+        "src\\TokenTransferrerConstants.sol",
+        "src\\TokenTransferrerErrors.sol"
+      ],
+      "versionRequirement": "^0.8.14",
+      "artifacts": {
+        "DEX": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "DEX.sol\\DEX.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\ERC20.sol": {
+      "lastModificationDate": 1653588787000,
+      "contentHash": "5d8e53b20e5c7ec28f6f80c6c8eff57f",
+      "sourceName": "src\\ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "src\\ConduitEnums.sol",
+        "src\\ConduitStructs.sol",
+        "src\\Context.sol",
+        "src\\IERC20.sol",
+        "src\\IERC20Metadata.sol",
+        "src\\TokenTransferrerConstants.sol",
+        "src\\TokenTransferrerErrors.sol"
+      ],
+      "versionRequirement": "^0.8.14",
+      "artifacts": {
+        "ERC20": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "ERC20.sol\\ERC20.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\IERC20.sol": {
+      "lastModificationDate": 1653588724000,
+      "contentHash": "04a332f64fe74b960e1361a5190cde8e",
+      "sourceName": "src\\IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.14",
+      "artifacts": {
+        "IERC20": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "IERC20.sol\\IERC20.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\IERC20Metadata.sol": {
+      "lastModificationDate": 1653571500000,
+      "contentHash": "7d180a51f2ae3e249b0aaee46c94c996",
+      "sourceName": "src\\IERC20Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "src\\IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20Metadata": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "IERC20Metadata.sol\\IERC20Metadata.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\TokenTransferrerConstants.sol": {
+      "lastModificationDate": 1653586887000,
+      "contentHash": "feb7e6d1b88cfd445b8466788e810e55",
+      "sourceName": "src\\TokenTransferrerConstants.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.7",
+      "artifacts": {}
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\src\\TokenTransferrerErrors.sol": {
+      "lastModificationDate": 1653586958000,
+      "contentHash": "be1447ff43a655b78d4f461277dda6a6",
+      "sourceName": "src\\TokenTransferrerErrors.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.7",
+      "artifacts": {
+        "TokenTransferrerErrors": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "TokenTransferrerErrors.sol\\TokenTransferrerErrors.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\test\\Contract.t.sol": {
+      "lastModificationDate": 1653596241753,
+      "contentHash": "848ba83feec29a2e4d286c118102ae20",
+      "sourceName": "test\\Contract.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\forge-std\\lib\\ds-test\\src/test.sol",
+        "lib\\forge-std\\src/Test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src\\console.sol",
+        "lib\\forge-std\\src/console2.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "ContractTest": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "Contract.t.sol\\ContractTest.json"
+        }
+      }
+    },
+    "C:\\solidity\\ERC20_Token_Benchmarks\\test\\ERC20.t.sol": {
+      "lastModificationDate": 1653590637000,
+      "contentHash": "1400054fea72229c2bba0b8dd31b079b",
+      "sourceName": "test\\ERC20.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\forge-std\\lib\\ds-test\\src/test.sol",
+        "lib\\forge-std\\src/Test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src\\console.sol",
+        "lib\\forge-std\\src/console2.sol",
+        "src\\ConduitEnums.sol",
+        "src\\ConduitStructs.sol",
+        "src\\Context.sol",
+        "src\\DEX.sol",
+        "src\\ERC20.sol",
+        "src\\IERC20.sol",
+        "src\\IERC20Metadata.sol",
+        "src\\TokenTransferrerConstants.sol",
+        "src\\TokenTransferrerErrors.sol"
+      ],
+      "versionRequirement": "=0.8.14",
+      "artifacts": {
+        "ERC20Test": {
+          "0.8.14+commit.80d49f37.Windows.msvc": "ERC20.t.sol\\ERC20Test.json"
+        }
+      }
+    }
+  }
+}
